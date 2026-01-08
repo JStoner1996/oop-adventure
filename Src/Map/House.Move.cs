@@ -5,7 +5,6 @@ public partial class House
 
     public Room CurrentRoom { get; set; }
 
-
     public void GoToRoom(int index)
     {
         if (CurrentRoom != null)
@@ -15,6 +14,7 @@ public partial class House
 
         CurrentRoom = Rooms[index];
     }
+
 
     public void GoToStartingRoom()
     {

@@ -1,5 +1,6 @@
 ﻿namespace OOPAdventure;
 
+// English language implementation
 public class English : Language
 {
     public English()

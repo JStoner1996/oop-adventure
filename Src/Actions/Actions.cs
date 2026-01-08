@@ -4,6 +4,7 @@ public sealed class Actions
 {
     private static Actions _instance;
 
+
     public static Actions Instance
     {
         get
@@ -40,10 +41,12 @@ public sealed class Actions
 
     }
 
+    // Execute to route to the correct action
     public void Execute(string[] args)
     {
         var actionName = args[0];
 
+        // Check if the action is registered and if not , print an error message
         if (_registeredActions.ContainsKey(actionName))
         {
             _registeredActions[actionName].Execute(args);
