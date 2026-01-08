@@ -8,12 +8,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Src\Map\House.Move.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Src\Map\House.Move.cs" />
-  </ItemGroup>
-
 </Project>
