@@ -9,7 +9,7 @@ public class English : Language
         DefaultName = "No name.";
         Welcome = "Welcome {0} to your OOP Adventure.";
         DefaultRoomName = "Room {0} ({1},{2})";
-        DefaultRoomDescription = " You are in a room with doors to the the {0}.";
+        DefaultRoomDescription = " You are in a {0} room with doors to the the {1}.";
         ActionError = "You can't do that.";
         Go = "Go";
         GoError = "You can't go that way.";
@@ -20,5 +20,15 @@ public class English : Language
         And = "and";
         Comma = ",";
         Space = " ";
+        RoomDescriptions = new List<string>
+        {
+            "normal",
+            "cold",
+            "warm",
+            "dark",
+            "bright",
+            "scary",
+            "strange",
+        };
     }
 }
