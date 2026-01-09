@@ -34,7 +34,6 @@ public partial class House
             //calculates neighbours
             if (c < Width - 1)
             {
-
                 tmpRoom.Neighbours[Directions.East] = CalculateRoomIndex(c + 1, r);
             }
 
